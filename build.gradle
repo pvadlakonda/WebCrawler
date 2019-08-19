@@ -1,0 +1,11 @@
+repositories {
+    mavenCentral()
+}
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+dependencies {
+	compile("org.jsoup:jsoup:1.9.2")
+	compile("org.apache.poi:poi:3.9")
+	compile("org.apache.poi:poi-ooxml:3.9")
+}
